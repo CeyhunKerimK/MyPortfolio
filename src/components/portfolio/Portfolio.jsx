@@ -3,14 +3,7 @@ import "./portfolio.css";
 import Menu from "./Menu";
 
 const Portfolio = () => {
-  const [items, setItems] = useState(Menu);
-  const filterItem = (categoryItem) => {
-    const updatedItems = Menu.filter((curElem) => {
-      return curElem.category === categoryItem;
-    });
-
-    setItems(updatedItems);
-  };
+  const [items] = useState(Menu);
 
   return (
     <section className="work container section" id="work">
@@ -18,7 +11,8 @@ const Portfolio = () => {
 
       <div className="work__container grid">
         {items.map((elem) => {
-          const { id, image, title, category } = elem;
+          const { id, image, title, link } = elem; // link ekledim
+
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
@@ -26,9 +20,15 @@ const Portfolio = () => {
                 <div className="work__mask"></div>
               </div>
               <h3 className="work__title">{title}</h3>
-              <a href="#" className="work__button">
-                <i className="icon-link work__button-icon"></i>
-              </a>
+              {link ? (
+                <a href={link} className="work__button" target="_blank" rel="noopener noreferrer">
+                  <i className="icon-link work__button-icon"></i>
+                </a>
+              ) : (
+                <button className="work__button">
+                  <i className="icon-link work__button-icon"></i>
+                </button>
+              )}
             </div>
           );
         })}

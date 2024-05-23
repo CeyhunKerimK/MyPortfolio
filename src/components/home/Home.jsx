@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import Me from "../../assets/ceyhun.svg"; // Kendi SVG dosyanızı kullanın
+import Me from "../../assets/ceyhun.svg";
 import HeaderSocials from "./HeaderSocials";
 import ScrollDown from "./ScrollDown";
 import Shapes from "./Shapes";

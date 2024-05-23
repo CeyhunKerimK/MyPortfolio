@@ -7,40 +7,45 @@ const HeaderSocials = () => {
         href="https://www.instagram.com/"
         className="home__social-link"
         target="_blank"
+        rel="noopener noreferrer"
       >
-        <i class="fa-brands fa-instagram"></i>
+        <i className="fa-brands fa-instagram"></i>
       </a>
 
       <a
         href="https://www.twitter.com/"
         className="home__social-link"
         target="_blank"
+        rel="noopener noreferrer"
       >
-        <i class="fa-brands fa-twitter"></i>
+        <i className="fa-brands fa-twitter"></i>
       </a>
 
       <a
         href="https://www.behance.com/"
         className="home__social-link"
         target="_blank"
+        rel="noopener noreferrer"
       >
-        <i class="fa-brands fa-behance"></i>
+        <i className="fa-brands fa-behance"></i>
       </a>
 
       <a
         href="https://www.dribble.com/"
         className="home__social-link"
         target="_blank"
+        rel="noopener noreferrer"
       >
-        <i class="fa-brands fa-dribbble"></i>
+        <i className="fa-brands fa-dribbble"></i>
       </a>
 
       <a
         href="https://www.pinterest.com/"
         className="home__social-link"
         target="_blank"
+        rel="noopener noreferrer"
       >
-        <i class="fa-brands fa-pinterest"></i>
+        <i className="fa-brands fa-pinterest"></i>
       </a>
     </div>
   );
