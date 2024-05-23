@@ -1,8 +1,6 @@
 import React from "react";
 import "./home.css";
-import Me from "../../assets/ceyhun.svg";
-import HeaderSocials from "./HeaderSocials";
-import ScrollDown from "./ScrollDown";
+import Me from "../../assets/profile.jpeg";
 import Shapes from "./Shapes";
 
 const Home = () => {
@@ -11,20 +9,10 @@ const Home = () => {
       <div className="intro">
         <img src={Me} alt="Ceyhun Kerim Kılıç" className="home__img" />
         <h1 className="home__name">Ceyhun Kerim Kılıç</h1>
-        <span className="home__education">I'm a Jr. Full-Stack Web Developer</span>
-
-        <HeaderSocials />
-
-        <a href="#contact" className="btn">
-          Hire Me
-        </a>
-
-        <ScrollDown />
+        <span className="home__title">Jr. Full-Stack Web Developer</span>
       </div>
-
       <Shapes />
     </section>
   );
 };
-
 export default Home;

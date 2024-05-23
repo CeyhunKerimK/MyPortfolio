@@ -8,52 +8,16 @@ const Contact = () => {
 
       <div className="contact__container grid">
         <div className="contact__info">
-          <h3 className="contact__title">Let's talk about everything!</h3>
-          <p className="contact__details">
-            Don't like forms? Send me an email. 👋
-          </p>
+          <div className="contact__email-box">
+            <a href="mailto:kilicceyhun131@gmail.com" className="contact__email">kilicceyhun131@gmail.com</a>
+          </div>
+          <div className="contact__socials">
+            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer noopener" className="contact__social"><i className="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer noopener" className="contact__social"><i className="fab fa-linkedin"></i></a>
+            <a href="https://leetcode.com/yourusername" target="_blank" rel="noreferrer noopener" className="contact__social"><i className="fas fa-code"></i></a>
+            <a href="https://hackerrank.com/yourusername" target="_blank" rel="noreferrer noopener" className="contact__social"><i className="fab fa-hackerrank"></i></a>
+          </div>
         </div>
-
-        <form action="" className="contact__form">
-          <div className="contact__form-group">
-            <div className="contact__form-div">
-              <input
-                type="text"
-                className="contact__form-input"
-                placeholder="Insert your name"
-              />
-            </div>
-
-            <div className="contact__form-div">
-              <input
-                type="email"
-                className="contact__form-input"
-                placeholder="Insert your email"
-              />
-            </div>
-          </div>
-
-          <div className="contact__form-div">
-            <input
-              type="text"
-              className="contact__form-input"
-              placeholder="Insert your subject"
-            />
-          </div>
-
-          <div className="contact__form-div contact__form-area">
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              className="contact__form-input"
-              placeholder="Write your message"
-            ></textarea>
-          </div>
-
-          <button className="btn">Send Message</button>
-        </form>
       </div>
     </section>
   );

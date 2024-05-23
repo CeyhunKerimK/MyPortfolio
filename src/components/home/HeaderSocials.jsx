@@ -9,7 +9,7 @@ const HeaderSocials = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fa-brands fa-instagram"></i>
+        <i className="icon-instagram"></i>
       </a>
 
       <a

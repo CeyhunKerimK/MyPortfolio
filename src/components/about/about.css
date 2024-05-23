@@ -65,17 +65,17 @@
 
 .development {
   width: 90%;
-  background-color: rgb(255, 209, 92);
+  background-color: rgb(102, 253, 14);
 }
 
 .ui__design {
-  width: 90%;
+  width: 50%;
   background-color: rgb(255, 76, 96);
 }
 
-.photography {
+.problem__solving {
   width: 90%;
-  background-color: rgb(108, 108, 299);
+  background-color: rgb(102, 253, 14);
 }
 
 .about__boxes {

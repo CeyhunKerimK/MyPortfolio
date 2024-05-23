@@ -1,6 +1,5 @@
 .resume__container {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 1.875rem;
+    margin: 0 auto;
 }
 
 .timeline {
@@ -50,6 +49,12 @@
 .timeline__title {
     font-size: var(--h3-font-size);
     margin: 0.5rem 0;
+}
+
+.timeline__skills {
+    font-weight: 600;
+    color: black;
+    margin-top: 1.5rem;
 }
 
 @media screen and (max-width: 1024px) {
