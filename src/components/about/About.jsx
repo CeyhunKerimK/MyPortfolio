@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import Image from "../../assets/anime.svg"; // Kendi SVG dosyanızı kullanın
 import CV from "../../assets/CeyhunKerimKılıç.pdf"; // CV dosyasının doğru yolu
 
 const About = () => {
